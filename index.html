@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Penguin Logic Ltd</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <style>
+            body {
+				max-width: 1920px;
+			}
+			
+			#header {
+				background-color: rgba(0, 0, 0, 0.4);
+				position: fixed;
+				margin-top: 20px;
+				height: 60px;
+				width: 100%;
+			}
+			
+			#menu {
+				float: right;
+				margin-top: 20px;
+				margin-right: 40px;
+			}
+			
+			#menu a {
+				color: white;
+			}
+			
+            #menu ul li {
+				float: left;
+				padding-left: 20px;
+			}
+
+			#menu ul {
+				display: block;
+				list-style: none outside none;
+				margin: 0 auto;
+			}
+            
+			
+			.page {
+				padding: 290px 110px; /* This gives our headings a bit of breathing room */
+				max-height: 660px;
+				min-height: 660px;
+			}
+			
+			.page.first, .page.last {
+				max-height: 825px;
+				min-height: 825px;
+			}
+			
+			.page h1 {
+				font-size: 4em;
+			}
+			
+			.js-background-1 {
+				background: transparent url(img/bg-2.jpg) center 0 no-repeat; /* http://hqwallbase.com/images/big/penguins-1578655.jpg */
+			}
+			.js-background-2 {
+				background: transparent url(img/bg-1.jpg) center 0 no-repeat; /* http://www.zastavki.com/pictures/1920x1200/2011/Animals_Birds_Penguin_jump_031240_.jpg */
+			}
+			.js-background-3 {
+				background: transparent url(img/bg-5.jpg) center 0 no-repeat; /* http://worldhdwallpaper.com/wp-content/uploads/2013/03/penguin-1920x1080-wallpaper.jpeg */
+			}
+        </style>
+        
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div id="header">
+			<div id="menu">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#experience">Experience</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	<div id="home" class="js-background-1 page first">
+		<img src="img/logo.png" title="Penguin Logic"/>
+	</div>
+	<div id="skills" class="js-background-2 page">
+		<h1>Clojure, Java,<br/>Web technologies</h1>
+	</div>
+	<div id="experience" class="js-background-3 page last">
+		<h1>6 years in financial technology<br/>15 years in website design</h1>
+		<footer>
+        <p>&copy; Penguin Logic Ltd 2014</p>
+      </footer>
+	</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/vendor/parallax.min.js"></script>
+		<script src="js/vendor/jquery.parallax.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
